@@ -1,0 +1,23 @@
+{
+  "name": "flashcards_app",
+  "version": "1.0.0",
+  "description": "This app uses express and pug to create a flashcard web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GT1990/flashcards_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GT1990/flashcards_app/issues"
+  },
+  "homepage": "https://github.com/GT1990/flashcards_app#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
