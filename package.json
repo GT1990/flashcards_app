@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/GT1990/flashcards_app#readme",
   "dependencies": {
+    "body-parser": "^1.19.1",
+    "cookie-parser": "^1.4.6",
     "express": "^4.17.2",
     "pug": "^3.0.2"
   }

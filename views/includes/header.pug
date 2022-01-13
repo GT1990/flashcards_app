@@ -1,0 +1,9 @@
+header
+  img(src='/static/img/logo.png')
+  p An app to help you study
+section.namecard
+  .namecard-hello
+    p.namecard-greeting= `Welcome, ${name}!`
+    form.namecard-exit(action='/logout' method='POST')
+      button(type='submit')
+        img(src='/static/img/close.svg')

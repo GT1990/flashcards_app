@@ -1,0 +1,17 @@
+extends layout 
+
+block main
+  section.flashcards
+    .card.card-question
+      .card-header
+      h1.card-title Question
+      #content
+        h2= question
+        p#hint
+          i= `Hint: ${hint}`
+      .card-flip-wrap
+        a(href=`/cards/card-back/${id}`)
+          img.card-flip(src='/static/img/flip.svg')
+      .card-next
+        a(href='/cards')
+          img(src='/static/img/next.svg')
